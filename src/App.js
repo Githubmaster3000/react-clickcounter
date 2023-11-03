@@ -9,7 +9,7 @@ function App() {
 
   console.log(count);
 
-  let color = count > 0 ? "green" : count < 0`` ? "red" : "black";
+  let color = (count > 0) ? "green" : (count < 0) ? "red" : "black";
 
   return (
     <div>
